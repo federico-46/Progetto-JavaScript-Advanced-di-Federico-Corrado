@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-style:normal;
+    color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    background: #B0C4DE; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #4169E1 , 	#B0C4DE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #4169E1, 	#B0C4DE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #4169E1 , 	#B0C4DE); /* Standard syntax */
+}
+
+.input-group{
+    padding-top: 20px;
+    width:  auto;
+}
+
+.summ{
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.list{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 30px;
+    word-spacing: 10px; 
+}
+.info{
+    padding-left: 10px;
+}
