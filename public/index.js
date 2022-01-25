@@ -1,8 +1,7 @@
 import './style.css';
-const get = require('lodash.get');
- import { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 
-  const firebaseConfig = {
+const firebaseConfig = {
       apiKey: process.env.VUE_APP_FIREBASE_APY_KEY,
       authDomain: process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
       projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
@@ -10,8 +9,9 @@ const get = require('lodash.get');
       messagingSenderId: process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID,
       appId: process.env.VUE_APP_FIREBASE_APP_ID,
     };
+const app = initializeApp(firebaseConfig);
 
-  const app = initializeApp(firebaseConfig);
+const get = require('lodash.get');
 
 const BTNSend = document.querySelector('.btn');
 const inputValue = document.getElementById('name'); 
